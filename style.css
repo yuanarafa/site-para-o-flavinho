@@ -1,8 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     background-color: rgb(233, 154, 161);
     color: rgb(151, 90, 67);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   padding: 24px 0;
 }
 .cabeçalho-imagem{
     width: 20%;
 
+}
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
 }
