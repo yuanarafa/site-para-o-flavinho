@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: 'Philosopher', sans-serif;
+}
 header{
     background-color: #e99aa1;
     color: #975a43;
@@ -25,4 +29,14 @@ header{
 .objetivo{
     background-image: linear-gradient(#e99aa1,#F9DBDC);
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.objetivo-div-conteudo{
+    width: 35%;
+}
+.objetivo-titulo{
+    padding: 24px 0;
 }
