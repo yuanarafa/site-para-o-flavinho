@@ -27,7 +27,7 @@ header{
     width: 25%;
 }
 .objetivo{
-    background-image: linear-gradient(#e99aa1,#F9DBDC);
+    background-image: linear-gradient(#e99aa1,#ffd8d8);
     color: white;
     display: flex;
     justify-content: center;
@@ -39,4 +39,7 @@ header{
 }
 .objetivo-titulo{
     padding: 24px 0;
+}
+.decomoveis-imagem{
+    width: 150px;
 }
